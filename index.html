@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>VNChord</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <h1 class="logo">
+            VNCHORD
+        </h1>
+
+        <ul class="menu">
+
+            <li data-page="homePage">
+                Home
+            </li>
+
+            <li data-page="songsPage">
+                Chord
+            </li>
+
+            <li data-page="aboutPage">
+                About
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+
+    <!-- HOME -->
+
+    <section class="page active" id="homePage">
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <h2>
+                    Chord Collection
+                </h2>
+
+                <p>
+                    By Jefferson Galvino
+                </p>
+            </div>
+
+        </section>
+
+    </section>
+
+
+
+    <!-- SONG PAGE -->
+
+    <section class="page" id="songsPage">
+
+        <section class="songs">
+
+            <div class="section-title">
+
+    <h2>
+        Daftar Lagu
+    </h2>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Cari lagu..."
+    >
+
+</div>
+
+            <div class="song-container">
+
+            </div>
+
+        </section>
+
+    </section>
+
+
+
+    <!-- ABOUT -->
+
+    <section class="page" id="aboutPage">
+
+        <section class="about">
+
+            <div class="about-box">
+
+                <h2>
+                    About Website
+                </h2>
+
+                <p>
+                    Website chord modern dengan
+                    backend API dan dashboard admin.
+                </p>
+
+            </div>
+
+        </section>
+
+    </section>
+
+
+
+    <!-- MODAL -->
+
+    <div class="modal" id="modal">
+
+        <div class="modal-content">
+
+            <button class="close-btn" id="closeBtn">
+                ×
+            </button>
+
+            <h2 id="modalTitle"></h2>
+
+            <p id="modalArtist"></p>
+
+            <div class="modal-chord">
+
+                <pre id="modalChord"></pre>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<footer class="footer">
+
+    <p>
+        © 2026 VNChord. All Rights Reserved.
+    </p>
+
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</body>
+
+</html>
